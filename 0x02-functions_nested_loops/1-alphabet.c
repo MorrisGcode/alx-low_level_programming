@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
-  *main - main entry point
+  *main - check the code
   *
-  *Return : Always 0 (success)
+  *Return : Always 0
   */
-
 int main(void)
-
 {
-	_putchar('\n');
+	print_alphabet();
 	return (0);
 }
