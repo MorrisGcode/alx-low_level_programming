@@ -5,16 +5,15 @@
   *
   *Return : Always 0
   */
-int main(void)
+
+void print_alphabet();
 {
-	void print_alphabet();
+	char c;
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		char c;
-		for (c = 'a'; c <= 'z'; c++)
-		{
-			_putchar(c);
-		}
-		_putchar('\n');
+		_putchar(c);
 	}
-	return (0);
+	_putchar('\n');
 }
+
+
