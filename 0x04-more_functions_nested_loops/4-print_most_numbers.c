@@ -5,7 +5,7 @@
   *Retuns: 0 (success)
   */
 
-void prints_most_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
