@@ -1,8 +1,8 @@
-#include "main"
+#include "main.h"
 
 /**
-  *prints_most_numbers - excludes 2 and 4
-  *Retuns: 0 (success)
+  *print_most_numbers - excludes 2 and 4
+  *Return: 0 (success)
   */
 
 void print_most_numbers(void)
