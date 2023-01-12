@@ -15,14 +15,14 @@ char *create_array(unsigned int size, char c)
 
 	if (buffer == 0)
 	{
-		return (Null);
+		return (0);
 	}
 	/*Define values with malloc*/
 	buffer = (char *) malloc(size * sizeof(c));
 
 	if (buffer == 0)
 	{
-		return (Null);
+		return (0);
 	}
 	else
 	{
