@@ -51,7 +51,7 @@ char *_strdup(char *str)
 
 	if (str == 0)
 	{
-		return (Null);
+		return (0);
 	}
 	size = _strlen(str) + 1;
 
@@ -59,7 +59,7 @@ char *_strdup(char *str)
 
 	if (dst == 0)
 	{
-		return (Null);
+		return (0);
 	}
 	_strcpy(dst, str);
 	return (dst);
