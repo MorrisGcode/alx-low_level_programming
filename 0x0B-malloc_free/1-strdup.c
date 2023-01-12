@@ -49,7 +49,7 @@ char *_strdup(char *str)
 	char *dst;
 	unsigned int size;
 
-	f (str == 0)
+	if (str == 0)
 	{
 		return (Null);
 	}
