@@ -44,7 +44,7 @@ char *_strcpy(char *cpy, char *src)
   *Return: pointer
   */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *dst;
 	unsigned int size;
