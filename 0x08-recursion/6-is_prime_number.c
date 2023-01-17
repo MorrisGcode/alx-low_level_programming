@@ -28,7 +28,8 @@ int is_prime_number(int n)
 
 	if (n < 2)
 		return (0);
-	else (n == 0)
+
+	else if (n == 0)
 		return (1);
 
 	return (evaluate_n(n, iterator));
