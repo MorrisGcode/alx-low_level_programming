@@ -1,4 +1,4 @@
-#include "DOG_H"
+#include "dog_h"
 
 /**
   *init_dog - function that initializes struct dog
@@ -12,6 +12,7 @@
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d)
+
 	{
 		d->owner = owner;
 		d->age = age;
